@@ -5,8 +5,12 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
  return (
-    <html lang="en">
-      <body>{children}</body>
+    <html lang="pt-br">
+        <head>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9113078401402055"
+     crossorigin="anonymous"></script>      
+        </head>
+        <body>{children}</body>
     </html>
   )
 }
